@@ -37,7 +37,7 @@ function addMap(position){
     var location=position;
     var locatePageMapOptions = {
         center: { lat:location["lat"], lng:location["lng"] },
-        zoom:14,
+        zoom:13,
         styles: [
             {
                 "elementType": "geometry",
@@ -286,7 +286,7 @@ function markSobiPoints(data){
 /*
 Parm:LatLng Object for destinations
 Process:Compute distance from distance to origin
-Returns:(VOID) for now
+Returns:VOID
 */
 function findNearest(data,location) {  
     var latlngdata=buildArray(appData);          
@@ -316,6 +316,7 @@ function sortData(data){
     }
     appData.sort(compare);
     console.log(appData);
+    populateCards(3,appData);
 }
 /*
 Parm: AppData Json
@@ -333,5 +334,25 @@ function buildArray(data) {
     }
     return tempArray;
 }
+/*
+*/
+function resizeBootstrapMap() {
+    var mapParentWidth = $('#mapContainer').width();
+    $('#map').width(mapParentWidth);
+    $('#map').height(3 * mapParentWidth / 4);
+    google.maps.event.trigger($('#map'),resize);
+    console.log(mapParentWidth);
+};
+function populateCards(noofcards,data){
+    for(var i=0;i<noofcards;i++){
+        if(i==0){
+            $('#card'+i+' h4').html(data[i]['NAME']+'<span class="badge badge-success"> Nearest</span>');
+        }
+        else{
+            $('#card'+i+' h4').html(data[i]['NAME']);
+        }
+        $('#card'+i+' h6').html(data[i]['ADDRESS']);
 
+    }
+}
 

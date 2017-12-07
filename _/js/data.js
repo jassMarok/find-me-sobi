@@ -2,7 +2,7 @@ var appData =[
     {  
        "OBJECTID":"1",
        "SOBI_ID":"435",
-       "NAME":"Gore Park - 74",
+       "NAME":"Gore Park",
        "ADDRESS":"20 King Street East, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -16,7 +16,7 @@ var appData =[
     {  
        "OBJECTID":"2",
        "SOBI_ID":"436",
-       "NAME":"James North at Mulberry - 76",
+       "NAME":"James North at Mulberry",
        "ADDRESS":"200 James Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -30,7 +30,7 @@ var appData =[
     {  
        "OBJECTID":"3",
        "SOBI_ID":"527",
-       "NAME":"Seedworks - 81B",
+       "NAME":"Seedworks",
        "ADDRESS":"126 Catharine Street North, Hamilton",
        "DESCRIPTION":"Outside SoBi Hamilton Office",
        "HAS_KIOSK":"No",
@@ -58,7 +58,7 @@ var appData =[
     {  
        "OBJECTID":"5",
        "SOBI_ID":"535",
-       "NAME":"Osler at Grant - 6",
+       "NAME":"Osler at Grant",
        "ADDRESS":"89-101 Osler Drive, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -72,7 +72,7 @@ var appData =[
     {  
        "OBJECTID":"6",
        "SOBI_ID":"536",
-       "NAME":"Main at Whitney - 7",
+       "NAME":"Main at Whitney",
        "ADDRESS":"1850, Main Street West, University Gardens, Ancaster, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -86,7 +86,7 @@ var appData =[
     {  
        "OBJECTID":"7",
        "SOBI_ID":"537",
-       "NAME":"Osler at Main - 8",
+       "NAME":"Osler at Main",
        "ADDRESS":"1686 Main Street West, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -100,7 +100,7 @@ var appData =[
     {  
        "OBJECTID":"8",
        "SOBI_ID":"538",
-       "NAME":"Whitney at Lower Horning - 9",
+       "NAME":"Whitney at Lower Horning",
        "ADDRESS":"377, Whitney Avenue, University Gardens, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -114,7 +114,7 @@ var appData =[
     {  
        "OBJECTID":"9",
        "SOBI_ID":"539",
-       "NAME":"Sanders at Binkley - 12",
+       "NAME":"Sanders at Binkley",
        "ADDRESS":"58, Sanders Boulevard, University Gardens, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -128,7 +128,7 @@ var appData =[
     {  
        "OBJECTID":"10",
        "SOBI_ID":"540",
-       "NAME":"Sanders at Hollywood - 13",
+       "NAME":"Sanders at Hollywood",
        "ADDRESS":"26, Sanders Boulevard, University Gardens, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -142,7 +142,7 @@ var appData =[
     {  
        "OBJECTID":"11",
        "SOBI_ID":"541",
-       "NAME":"King at Cline - 18",
+       "NAME":"King at Cline",
        "ADDRESS":"1108 King Street West, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -156,7 +156,7 @@ var appData =[
     {  
        "OBJECTID":"12",
        "SOBI_ID":"542",
-       "NAME":"Sterling at Whitton - 19",
+       "NAME":"Sterling at Whitton",
        "ADDRESS":"139, Sterling Street, Westdale, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -170,7 +170,7 @@ var appData =[
     {  
        "OBJECTID":"13",
        "SOBI_ID":"543",
-       "NAME":"Sterling at Haddon - 20",
+       "NAME":"Sterling at Haddon",
        "ADDRESS":"71 Sterling Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -184,7 +184,7 @@ var appData =[
     {  
        "OBJECTID":"14",
        "SOBI_ID":"544",
-       "NAME":"Westdale Library -21",
+       "NAME":"Westdale Library",
        "ADDRESS":"955 King Street West, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -198,7 +198,7 @@ var appData =[
     {  
        "OBJECTID":"15",
        "SOBI_ID":"545",
-       "NAME":"Emerson at Whitney -22",
+       "NAME":"Emerson at Whitney",
        "ADDRESS":"202, Emerson Street, University Gardens, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -212,7 +212,7 @@ var appData =[
     {  
        "OBJECTID":"16",
        "SOBI_ID":"546",
-       "NAME":"Rail Trail at Emerson - 23",
+       "NAME":"Rail Trail at Emerson",
        "ADDRESS":"Hamilton Brantford Rail Trail, Emerson Street, Westdale, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -226,7 +226,7 @@ var appData =[
     {  
        "OBJECTID":"17",
        "SOBI_ID":"547",
-       "NAME":"Westdale Village - 24",
+       "NAME":"Westdale Village",
        "ADDRESS":"25 Marion Avenue South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -240,7 +240,7 @@ var appData =[
     {  
        "OBJECTID":"18",
        "SOBI_ID":"548",
-       "NAME":"Rail Trail at Stroud - 27",
+       "NAME":"Rail Trail at Stroud",
        "ADDRESS":"Hamilton Brantford Rail Trail, Emerson Street, Westdale, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -254,7 +254,7 @@ var appData =[
     {  
        "OBJECTID":"19",
        "SOBI_ID":"549",
-       "NAME":"Main at Columbia College - 28",
+       "NAME":"Main at Columbia College",
        "ADDRESS":"82 Newton Avenue, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -268,7 +268,7 @@ var appData =[
     {  
        "OBJECTID":"20",
        "SOBI_ID":"550",
-       "NAME":"Longwood at King - 30",
+       "NAME":"Longwood at King",
        "ADDRESS":"881, King Street West, Westdale, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -282,7 +282,7 @@ var appData =[
     {  
        "OBJECTID":"21",
        "SOBI_ID":"551",
-       "NAME":"Longwood at Edgevale - 31",
+       "NAME":"Longwood at Edgevale",
        "ADDRESS":"78, Longwood Road North, Westdale, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -296,7 +296,7 @@ var appData =[
     {  
        "OBJECTID":"22",
        "SOBI_ID":"552",
-       "NAME":"Chedoke Stairs - 32",
+       "NAME":"Chedoke Stairs",
        "ADDRESS":"Chedoke Park, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -310,7 +310,7 @@ var appData =[
     {  
        "OBJECTID":"23",
        "SOBI_ID":"553",
-       "NAME":"Main at Longwood - 33",
+       "NAME":"Main at Longwood",
        "ADDRESS":"925, Main Street West, McMaster Innovation Park, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -324,7 +324,7 @@ var appData =[
     {  
        "OBJECTID":"24",
        "SOBI_ID":"554",
-       "NAME":"Macklin at King - 34",
+       "NAME":"Macklin at King",
        "ADDRESS":"768, King Street West, McMaster Innovation Park, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -338,7 +338,7 @@ var appData =[
     {  
        "OBJECTID":"25",
        "SOBI_ID":"555",
-       "NAME":"McMaster Innovation Park - 35",
+       "NAME":"McMaster Innovation Park",
        "ADDRESS":"175 Longwood Road South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -352,7 +352,7 @@ var appData =[
     {  
        "OBJECTID":"26",
        "SOBI_ID":"556",
-       "NAME":"Dundurn Stairs - 36",
+       "NAME":"Dundurn Stairs",
        "ADDRESS":"534, Dundurn Street South, Chedoke Park, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -366,7 +366,7 @@ var appData =[
     {  
        "OBJECTID":"27",
        "SOBI_ID":"557",
-       "NAME":"Dundurn at Aberdeen - 38",
+       "NAME":"Dundurn at Aberdeen",
        "ADDRESS":"330-346 Dundurn Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -380,7 +380,7 @@ var appData =[
     {  
        "OBJECTID":"28",
        "SOBI_ID":"558",
-       "NAME":"Dundurn St S - 39",
+       "NAME":"Dundurn St S",
        "ADDRESS":"229-233 Dundurn Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -394,7 +394,7 @@ var appData =[
     {  
        "OBJECTID":"29",
        "SOBI_ID":"559",
-       "NAME":"Main at Dundurn - 40",
+       "NAME":"Main at Dundurn",
        "ADDRESS":"91 Dundurn Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -408,7 +408,7 @@ var appData =[
     {  
        "OBJECTID":"30",
        "SOBI_ID":"560",
-       "NAME":"King at Dundurn - 42",
+       "NAME":"King at Dundurn",
        "ADDRESS":"9-11 Dundurn Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -422,7 +422,7 @@ var appData =[
     {  
        "OBJECTID":"31",
        "SOBI_ID":"562",
-       "NAME":"Charlton at Locke - 44",
+       "NAME":"Charlton at Locke",
        "ADDRESS":"La Jardinere Flowers, 246, Locke Street South, Hess Village, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -436,7 +436,7 @@ var appData =[
     {  
        "OBJECTID":"32",
        "SOBI_ID":"563",
-       "NAME":"Locke at Hunter - 45",
+       "NAME":"Locke at Hunter",
        "ADDRESS":"137, Locke Street South, Hess Village, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -450,7 +450,7 @@ var appData =[
     {  
        "OBJECTID":"33",
        "SOBI_ID":"564",
-       "NAME":"Locke at Napier - 46",
+       "NAME":"Locke at Napier",
        "ADDRESS":"64, Locke Street North, Hess Village, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -464,7 +464,7 @@ var appData =[
     {  
        "OBJECTID":"34",
        "SOBI_ID":"565",
-       "NAME":"York at Inchbury - 47",
+       "NAME":"York at Inchbury",
        "ADDRESS":"460 York Boulevard, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -478,7 +478,7 @@ var appData =[
     {  
        "OBJECTID":"35",
        "SOBI_ID":"566",
-       "NAME":"Aberdeen at Queen - 48",
+       "NAME":"Aberdeen at Queen",
        "ADDRESS":"ABERDEEN at SPRUCESIDE, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -492,7 +492,7 @@ var appData =[
     {  
        "OBJECTID":"36",
        "SOBI_ID":"567",
-       "NAME":"Herkimer at Queen - 49",
+       "NAME":"Herkimer at Queen",
        "ADDRESS":"178, Herkimer Street, Hess Village, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -506,7 +506,7 @@ var appData =[
     {  
        "OBJECTID":"37",
        "SOBI_ID":"568",
-       "NAME":"Ryerson Recreation Centre - 50",
+       "NAME":"Ryerson Recreation Centre",
        "ADDRESS":"251 Duke Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -520,7 +520,7 @@ var appData =[
     {  
        "OBJECTID":"38",
        "SOBI_ID":"569",
-       "NAME":"Hunter at Hess - 51",
+       "NAME":"Hunter at Hess",
        "ADDRESS":"131-133 Hess Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -534,7 +534,7 @@ var appData =[
     {  
        "OBJECTID":"39",
        "SOBI_ID":"570",
-       "NAME":"Queen at Peter - 53",
+       "NAME":"Queen at Peter",
        "ADDRESS":"80, Queen Street North, Hess Village, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -548,7 +548,7 @@ var appData =[
     {  
        "OBJECTID":"40",
        "SOBI_ID":"571",
-       "NAME":"40 Oxford - 54",
+       "NAME":"40 Oxford",
        "ADDRESS":"40-48 Oxford Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -562,7 +562,7 @@ var appData =[
     {  
        "OBJECTID":"41",
        "SOBI_ID":"572",
-       "NAME":"Durand Park - 55",
+       "NAME":"Durand Park",
        "ADDRESS":"Durand Park, Park Street South, Corktown, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -576,7 +576,7 @@ var appData =[
     {  
        "OBJECTID":"42",
        "SOBI_ID":"573",
-       "NAME":"James S at Charlton - 56",
+       "NAME":"James S at Charlton",
        "ADDRESS":"232 James Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -590,7 +590,7 @@ var appData =[
     {  
        "OBJECTID":"43",
        "SOBI_ID":"574",
-       "NAME":"Bay at Bold - 57",
+       "NAME":"Bay at Bold",
        "ADDRESS":"100 Bold Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -604,7 +604,7 @@ var appData =[
     {  
        "OBJECTID":"44",
        "SOBI_ID":"575",
-       "NAME":"City Hall - 59",
+       "NAME":"City Hall",
        "ADDRESS":"58 Bay Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -618,7 +618,7 @@ var appData =[
     {  
        "OBJECTID":"45",
        "SOBI_ID":"576",
-       "NAME":"Bay at York - 60",
+       "NAME":"Bay at York",
        "ADDRESS":"55, Bay Street North, Hess Village, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -632,7 +632,7 @@ var appData =[
     {  
        "OBJECTID":"46",
        "SOBI_ID":"577",
-       "NAME":"Bay at Mulberry - 62",
+       "NAME":"Bay at Mulberry",
        "ADDRESS":"177, Bay Street North, Hess Village, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -646,7 +646,7 @@ var appData =[
     {  
        "OBJECTID":"47",
        "SOBI_ID":"578",
-       "NAME":"Bay at Strachan - 63",
+       "NAME":"Bay at Strachan",
        "ADDRESS":"325 Bay Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -660,7 +660,7 @@ var appData =[
     {  
        "OBJECTID":"48",
        "SOBI_ID":"579",
-       "NAME":"Bayfront Park - 64",
+       "NAME":"Bayfront Park",
        "ADDRESS":"Harbour Front Drive, North End, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -674,7 +674,7 @@ var appData =[
     {  
        "OBJECTID":"49",
        "SOBI_ID":"580",
-       "NAME":"Ainslie at Emerson - 25",
+       "NAME":"Ainslie at Emerson",
        "ADDRESS":"65 Ainslie Avenue, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -688,7 +688,7 @@ var appData =[
     {  
        "OBJECTID":"50",
        "SOBI_ID":"581",
-       "NAME":"Strachan at Mary - 66",
+       "NAME":"Strachan at Mary",
        "ADDRESS":"127, Strachan Street East, North End, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -702,7 +702,7 @@ var appData =[
     {  
        "OBJECTID":"51",
        "SOBI_ID":"582",
-       "NAME":"Hughson at Picton - 67",
+       "NAME":"Hughson at Picton",
        "ADDRESS":"448, Hughson Street North, North End, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -716,7 +716,7 @@ var appData =[
     {  
        "OBJECTID":"52",
        "SOBI_ID":"583",
-       "NAME":"Discovery Drive - 68",
+       "NAME":"Discovery Drive",
        "ADDRESS":"Waterfront Trail, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -730,7 +730,7 @@ var appData =[
     {  
        "OBJECTID":"53",
        "SOBI_ID":"585",
-       "NAME":"Eastwood Arena - 70",
+       "NAME":"Eastwood Arena",
        "ADDRESS":"111, Burlington Street East, North End, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -744,7 +744,7 @@ var appData =[
     {  
        "OBJECTID":"54",
        "SOBI_ID":"586",
-       "NAME":"Catherine at Young - 71",
+       "NAME":"Catherine at Young",
        "ADDRESS":"175 Catharine Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -758,7 +758,7 @@ var appData =[
     {  
        "OBJECTID":"55",
        "SOBI_ID":"587",
-       "NAME":"Main at Macnab -75",
+       "NAME":"Main at Macnab",
        "ADDRESS":"50 Main Street West, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -772,7 +772,7 @@ var appData =[
     {  
        "OBJECTID":"56",
        "SOBI_ID":"588",
-       "NAME":"Ferguson at Barton - 77",
+       "NAME":"Ferguson at Barton",
        "ADDRESS":"186, Ferguson Avenue North, Beasley, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -786,7 +786,7 @@ var appData =[
     {  
        "OBJECTID":"57",
        "SOBI_ID":"589",
-       "NAME":"Ferrie at Furguson -78",
+       "NAME":"Ferrie at Furguson",
        "ADDRESS":"206, Ferrie Street East, North End, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -800,7 +800,7 @@ var appData =[
     {  
        "OBJECTID":"58",
        "SOBI_ID":"590",
-       "NAME":"Ferguson at Cannon - 79",
+       "NAME":"Ferguson at Cannon",
        "ADDRESS":"156, Cannon Street East, Beasley, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -814,7 +814,7 @@ var appData =[
     {  
        "OBJECTID":"59",
        "SOBI_ID":"591",
-       "NAME":"Ferguson at King William - 80",
+       "NAME":"Ferguson at King William ",
        "ADDRESS":"4-12 Ferguson Avenue North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -828,7 +828,7 @@ var appData =[
     {  
        "OBJECTID":"60",
        "SOBI_ID":"592",
-       "NAME":"King William at John - 82",
+       "NAME":"King William at John",
        "ADDRESS":"32-36 John Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -842,7 +842,7 @@ var appData =[
     {  
        "OBJECTID":"61",
        "SOBI_ID":"593",
-       "NAME":"Victoria at Barton - 83",
+       "NAME":"Victoria at Barton",
        "ADDRESS":"286-300 Victoria Avenue North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -856,7 +856,7 @@ var appData =[
     {  
        "OBJECTID":"62",
        "SOBI_ID":"594",
-       "NAME":"Cannon at Oak - 85",
+       "NAME":"Cannon at Oak",
        "ADDRESS":"362 Cannon Street East, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -870,7 +870,7 @@ var appData =[
     {  
        "OBJECTID":"63",
        "SOBI_ID":"596",
-       "NAME":"Wentworth Steps - 86",
+       "NAME":"Wentworth Steps",
        "ADDRESS":"203 Wentworth Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -884,7 +884,7 @@ var appData =[
     {  
        "OBJECTID":"64",
        "SOBI_ID":"597",
-       "NAME":"Stinson at Blythe - 87",
+       "NAME":"Stinson at Blythe",
        "ADDRESS":"12-38 Blythe Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -898,7 +898,7 @@ var appData =[
     {  
        "OBJECTID":"65",
        "SOBI_ID":"598",
-       "NAME":"Hunter at Furguson - 88",
+       "NAME":"Hunter at Furguson",
        "ADDRESS":"175, Hunter Street East, Corktown, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -912,7 +912,7 @@ var appData =[
     {  
        "OBJECTID":"66",
        "SOBI_ID":"599",
-       "NAME":"Corktown Park - 89",
+       "NAME":"Corktown Park",
        "ADDRESS":"174, Ferguson Avenue South, Corktown, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -926,7 +926,7 @@ var appData =[
     {  
        "OBJECTID":"67",
        "SOBI_ID":"601",
-       "NAME":"Stinson at West - 92",
+       "NAME":"Stinson at West",
        "ADDRESS":"93, West Avenue South, Corktown, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -940,7 +940,7 @@ var appData =[
     {  
        "OBJECTID":"68",
        "SOBI_ID":"602",
-       "NAME":"King William at Victoria - 94",
+       "NAME":"King William at Victoria",
        "ADDRESS":"338, King William Street, Beasley, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -954,7 +954,7 @@ var appData =[
     {  
        "OBJECTID":"69",
        "SOBI_ID":"603",
-       "NAME":"Barton at Wentworth - 95",
+       "NAME":"Barton at Wentworth",
        "ADDRESS":"Fire Station No.8, Barton Street East, Beasley, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -968,7 +968,7 @@ var appData =[
     {  
        "OBJECTID":"70",
        "SOBI_ID":"604",
-       "NAME":"Cannon at Wentworth - 96",
+       "NAME":"Cannon at Wentworth",
        "ADDRESS":"451, Cannon Street East, Beasley, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -982,7 +982,7 @@ var appData =[
     {  
        "OBJECTID":"71",
        "SOBI_ID":"605",
-       "NAME":"Wentworth at King - 97",
+       "NAME":"Wentworth at King",
        "ADDRESS":"16 Wentworth Street South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -996,7 +996,7 @@ var appData =[
     {  
        "OBJECTID":"72",
        "SOBI_ID":"606",
-       "NAME":"Bay at Macaulay - 99",
+       "NAME":"Bay at Macaulay",
        "ADDRESS":"492 Bay Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1010,7 +1010,7 @@ var appData =[
     {  
        "OBJECTID":"73",
        "SOBI_ID":"607",
-       "NAME":"Haymarket at Hughson - 100",
+       "NAME":"Haymarket at Hughson",
        "ADDRESS":"22 Haymarket Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1024,7 +1024,7 @@ var appData =[
     {  
        "OBJECTID":"74",
        "SOBI_ID":"608",
-       "NAME":"James at Colbourne - 101",
+       "NAME":"James at Colbourne",
        "ADDRESS":"295 James Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1038,7 +1038,7 @@ var appData =[
     {  
        "OBJECTID":"75",
        "SOBI_ID":"609",
-       "NAME":"Ferguson at King - 102",
+       "NAME":"Ferguson at King",
        "ADDRESS":"4523 Ferguson Avenue South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1052,7 +1052,7 @@ var appData =[
     {  
        "OBJECTID":"76",
        "SOBI_ID":"610",
-       "NAME":"Cannon at Birch (Powell Park) - 103",
+       "NAME":"Cannon at Birch (Powell Park)",
        "ADDRESS":"72 Harvey Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1066,7 +1066,7 @@ var appData =[
     {  
        "OBJECTID":"77",
        "SOBI_ID":"611",
-       "NAME":"Cannon at Sherman - 104",
+       "NAME":"Cannon at Sherman",
        "ADDRESS":"61-65 Sherman Avenue North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1080,7 +1080,7 @@ var appData =[
     {  
        "OBJECTID":"78",
        "SOBI_ID":"612",
-       "NAME":"Delaware at Myrtle - 106",
+       "NAME":"Delaware at Myrtle",
        "ADDRESS":"17, Delaware Avenue, Inch Park, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1094,7 +1094,7 @@ var appData =[
     {  
        "OBJECTID":"79",
        "SOBI_ID":"613",
-       "NAME":"Maplewood at Springer - 108",
+       "NAME":"Maplewood at Springer",
        "ADDRESS":"71, Maplewood Avenue, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1108,7 +1108,7 @@ var appData =[
     {  
        "OBJECTID":"80",
        "SOBI_ID":"614",
-       "NAME":"Gage Park - Maplewood - 109",
+       "NAME":"Gage Park - Maplewood",
        "ADDRESS":"190 Gage Avenue South, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1122,7 +1122,7 @@ var appData =[
     {  
        "OBJECTID":"81",
        "SOBI_ID":"622",
-       "NAME":"McMaster Emerson - 15",
+       "NAME":"McMaster Emerson",
        "ADDRESS":"Main Street West, Emerson at Main, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1136,7 +1136,7 @@ var appData =[
     {  
        "OBJECTID":"82",
        "SOBI_ID":"623",
-       "NAME":"McMaster Arthur Bourns - 14",
+       "NAME":"McMaster Arthur Bourns",
        "ADDRESS":"2000 College Court, McMaster University, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1150,7 +1150,7 @@ var appData =[
     {  
        "OBJECTID":"83",
        "SOBI_ID":"624",
-       "NAME":"McMaster Health Sciences - 10",
+       "NAME":"McMaster Health Sciences",
        "ADDRESS":"University Avenue, McMaster University, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1164,7 +1164,7 @@ var appData =[
     {  
        "OBJECTID":"84",
        "SOBI_ID":"625",
-       "NAME":"McMaster Mary Keyes - 16",
+       "NAME":"McMaster Mary Keyes",
        "ADDRESS":"Matthews Hall, Scholars Road, Westdale, Hamilton, Ontario",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1178,7 +1178,7 @@ var appData =[
     {  
        "OBJECTID":"85",
        "SOBI_ID":"626",
-       "NAME":"McMaster Stadium - 11",
+       "NAME":"McMaster Stadium",
        "ADDRESS":"Stearn Drive, McMaster University, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1192,7 +1192,7 @@ var appData =[
     {  
        "OBJECTID":"86",
        "SOBI_ID":"631",
-       "NAME":"Hunter GO Centre - 72",
+       "NAME":"Hunter GO Centre",
        "ADDRESS":"36 Hunter Street East, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1206,7 +1206,7 @@ var appData =[
     {  
        "OBJECTID":"87",
        "SOBI_ID":"707",
-       "NAME":"McMaster Student Centre - 17",
+       "NAME":"McMaster Student Centre",
        "ADDRESS":"Sterling Street, McMaster University, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1220,7 +1220,7 @@ var appData =[
     {  
        "OBJECTID":"88",
        "SOBI_ID":"708",
-       "NAME":"York at Macnab - 61",
+       "NAME":"York at Macnab",
        "ADDRESS":"25 York Boulevard, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1234,7 +1234,7 @@ var appData =[
     {  
        "OBJECTID":"89",
        "SOBI_ID":"709",
-       "NAME":"Park at Robinson - 58",
+       "NAME":"Park at Robinson",
        "ADDRESS":"80-92 Robinson Street, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1248,7 +1248,7 @@ var appData =[
     {  
        "OBJECTID":"90",
        "SOBI_ID":"712",
-       "NAME":"West at Cannon - 84",
+       "NAME":"West at Cannon",
        "ADDRESS":"144 West Avenue North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1276,7 +1276,7 @@ var appData =[
     {  
        "OBJECTID":"92",
        "SOBI_ID":"765",
-       "NAME":"Princess Point - 29",
+       "NAME":"Princess Point",
        "ADDRESS":"809 Desjardins Recreation Trail, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1290,7 +1290,7 @@ var appData =[
     {  
        "OBJECTID":"93",
        "SOBI_ID":"778",
-       "NAME":"Aberdeen at Studholme - 37",
+       "NAME":"Aberdeen at Studholme",
        "ADDRESS":"34 Studholme Road, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1388,7 +1388,7 @@ var appData =[
     {  
        "OBJECTID":"100",
        "SOBI_ID":"869",
-       "NAME":"Mary at Cannon - 00",
+       "NAME":"Mary at Cannon",
        "ADDRESS":"134-136 Cannon Street East, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1668,7 +1668,7 @@ var appData =[
     {  
        "OBJECTID":"120",
        "SOBI_ID":"2916",
-       "NAME":"Sherman at Barton - ERI02",
+       "NAME":"Sherman at Barton",
        "ADDRESS":"141-147 Sherman Avenue North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1682,7 +1682,7 @@ var appData =[
     {  
        "OBJECTID":"121",
        "SOBI_ID":"2917",
-       "NAME":"Barton at Lottridge - ERI03",
+       "NAME":"Barton at Lottridge",
        "ADDRESS":"779-781 Barton Street East, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1696,7 +1696,7 @@ var appData =[
     {  
        "OBJECTID":"122",
        "SOBI_ID":"2918",
-       "NAME":"Barton and Belview - ERI05",
+       "NAME":"Barton and Belview",
        "ADDRESS":"954 Barton Street East, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1710,7 +1710,7 @@ var appData =[
     {  
        "OBJECTID":"123",
        "SOBI_ID":"2919",
-       "NAME":"Barton at Ottawa - ERI06",
+       "NAME":"Barton at Ottawa",
        "ADDRESS":"437-443 Ottawa Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1724,7 +1724,7 @@ var appData =[
     {  
        "OBJECTID":"124",
        "SOBI_ID":"2920",
-       "NAME":"Ottawa at Dunsmure - ERI07",
+       "NAME":"Ottawa at Dunsmure",
        "ADDRESS":"52 Ottawa Street North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1738,7 +1738,7 @@ var appData =[
     {  
        "OBJECTID":"125",
        "SOBI_ID":"2921",
-       "NAME":"Maple at Rothsay - ERI08",
+       "NAME":"Maple at Rothsay",
        "ADDRESS":"394 Maple Avenue, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1752,7 +1752,7 @@ var appData =[
     {  
        "OBJECTID":"126",
        "SOBI_ID":"2922",
-       "NAME":"King at Dunsmure - ERI09",
+       "NAME":"King at Dunsmure",
        "ADDRESS":"304 Dunsmure Road, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1766,7 +1766,7 @@ var appData =[
     {  
        "OBJECTID":"127",
        "SOBI_ID":"2923",
-       "NAME":"Dunsmure at Sherman - ERI10",
+       "NAME":"Dunsmure at Sherman",
        "ADDRESS":"44 Dunsmure Road, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1780,7 +1780,7 @@ var appData =[
     {  
        "OBJECTID":"128",
        "SOBI_ID":"2924",
-       "NAME":"Gage at Cannon - ERI11",
+       "NAME":"Gage at Cannon",
        "ADDRESS":"75-77 Gage Avenue North, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1794,7 +1794,7 @@ var appData =[
     {  
        "OBJECTID":"129",
        "SOBI_ID":"2925",
-       "NAME":"Belview at Cannon - ERI12",
+       "NAME":"Belview at Cannon",
        "ADDRESS":"135 Belview Avenue, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
@@ -1808,7 +1808,7 @@ var appData =[
     {  
        "OBJECTID":"130",
        "SOBI_ID":"2926",
-       "NAME":"Westinghouse at Barton - ERI13",
+       "NAME":"Westinghouse at Barton",
        "ADDRESS":"9 Westinghouse Avenue, Hamilton",
        "DESCRIPTION":"",
        "HAS_KIOSK":"No",
