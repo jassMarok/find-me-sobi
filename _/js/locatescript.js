@@ -1,7 +1,43 @@
-function initMap() {
-    var indexPageMapOptions = {
-        center: { lat: 43.2557, lng: -79.8711 },
-        zoom: 11,
+/*
+Process:Geolocating user
+Calls:addMap,markUserLocation,markSobiPoints if succesfull or geoLocation error
+*/
+function geoLocating() {
+    
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+               var posTemp = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                }
+                addMap(posTemp);
+                markUserLocation(posTemp);
+                markSobiPoints(appData);
+                findNearest(appData,posTemp);
+
+            }, geoLocationError);
+        }
+        else {
+            //This means browser does not support Geolocation     
+        }
+    
+       
+}
+/*
+Function to run when no permission
+Do Something to prompt user to enable location services
+*/
+function geoLocationError() {
+        alert("Geolocation Error!");
+}
+/*
+Process:Adds a google map to page
+*/
+function addMap(position){
+    var location=position;
+    var locatePageMapOptions = {
+        center: { lat:location["lat"], lng:location["lng"] },
+        zoom:14,
         styles: [
             {
                 "elementType": "geometry",
@@ -210,21 +246,92 @@ function initMap() {
                 ]
             }
         ],
-        disableDefaultUI: true,
+        disableDefaultUI: false,
         navigationControl: false,
         mapTypeControl: false,
         scaleControl: false,
-        draggable: false,
+        draggable: true,
     }
-    //Creating the  Index Page Map
-    map = new google.maps.Map(document.getElementById('map'), indexPageMapOptions);      
+    map = new google.maps.Map(document.getElementById('map'), locatePageMapOptions);
 }
-$(document).ready(function() {
+
+/*
+Process:Add User Location marker on map.
+*/
+function markUserLocation(location){
+   
+    marker = new google.maps.Marker({
+        position: new google.maps.LatLng(location["lat"],location["lng"]),
+        map: map,
+        title:'My Location',
+        animation: google.maps.Animation.DROP
+    });
+}
+/*
+Parm:appData Json
+Process:Adds sobi points to the map
+Return:VOID
+*/
+function markSobiPoints(data){
     
-      $('#findBtn').click(function() {
-    
-        window.location.href= 'locate.html';
-    
-      });
-});
+    for (var i = 0; i < data.length; i++) {
+        
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(data[i]["LATITUDE"], data[i]["LONGITUDE"]),
+            map: map,
+            animation: google.maps.Animation.DROP
+        });
+    }
+}
+/*
+Parm:LatLng Object for destinations
+Process:Compute distance from distance to origin
+Returns:(VOID) for now
+*/
+function findNearest(data,location) {  
+    var latlngdata=buildArray(appData);          
+    var userLocation=new google.maps.LatLng(location["lat"],location["lng"]);
+     var distanceArray=Array();                                   
+     for(var i=0;i<latlngdata.length-1;i++){
+               var tempDistance=
+         google.maps.geometry.spherical
+         .computeDistanceBetween(latlngdata[i],userLocation);
+         distanceArray.push(tempDistance);
+         appData[i].Distance=tempDistance;    
+     }
+     sortData(appData);    
+}
+/*
+Parm:appData with Distance
+Process:Sorts the object based on distance
+Returns:VOID
+*/
+function sortData(data){
+    function compare(a,b){
+        if(a.Distance<b.Distance)
+           return -1;
+       if(a.Distance>b.Distance)
+           return 1;
+       return 0;
+    }
+    appData.sort(compare);
+    console.log(appData);
+}
+/*
+Parm: AppData Json
+Process:Extracts lat lng and push into an array.
+Returns:Array with LatLng google object
+*/
+function buildArray(data) {
+    var tempArray = new Array();
+    var objLength=data.length;
+    for (var temp = 0; temp < data.length-1; temp++) {
+        var tempLat=parseFloat(data[temp]["LATITUDE"]);
+        var tempLng=parseFloat(data[temp]["LONGITUDE"]);
+        var tempLatLng = new google.maps.LatLng(tempLat,tempLng);
+         tempArray[temp] =tempLatLng;
+    }
+    return tempArray;
+}
+
 
